@@ -1,0 +1,101 @@
+.first-page{
+	position:relative;
+}
+.second-page{
+	padding-top:70px;
+	width:100%;
+	position:relative;
+}
+.s-h1{
+	width:100%;
+	text-align: center;
+	color:black;
+	font-weight:800;
+}
+.s-h2{
+	width:100%;
+	text-align: center;
+	color:black;
+	font-weight:400;
+	font-size:30px;
+}
+
+.s-h1-3{
+	margin-top:150px;
+}
+.three-imgs{
+	width:100%;
+	margin-top:50px;
+	margin-bottom:100px;
+	position:relative;
+}
+.s-img1{
+	width:50%;
+}
+.rate-video-iphone{
+	background-image: url('/iphone.png');
+	background-repeat: no-repeat;
+	width:300px;
+	height:629px;
+	padding-left:18px;
+	padding-top:74px;
+	overflow:hidden;
+	background-size: contain;
+	float:right;
+}
+.row{
+	height:auto;
+}
+.video-nested{
+	width:265px;
+}
+.rate-2{
+	float:left;
+}
+
+
+
+
+.sign-up-form{
+	width:300px;
+	display:block;
+	margin:auto;
+	margin-bottom:150px;
+}
+.email-input-subscribe{
+	width:100%;
+}
+.submit-email-subscribe{
+	width:100%;
+}
+
+.footer{
+	width:100%;
+	height:330px;
+	background-color:#2ECB71;
+	position:relative;
+	padding:1px;
+}
+.footer-logo{
+	display:block; 
+	margin:auto; 
+	width:60px; 
+	position:relative;
+	margin-top:70px;
+}
+
+.footer-h1{
+	width:100%;
+	color:white;
+	font-size:50px;
+	text-align: center;
+	margin-top:30px;
+}
+.footer-h2{
+	width:100%;
+	color:white;
+	font-size:25px;
+	text-align: center;
+}
+
+

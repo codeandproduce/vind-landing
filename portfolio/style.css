@@ -1,0 +1,479 @@
+/* Main Stuff */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+
+
+*{
+	transition: all 250ms ease-in-out;
+}
+
+.row{
+	margin-left:0;
+	margin-right:0;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Raleway', sans-serif;
+	width:100%;
+	height:100%;
+}
+
+
+.contain-top{
+	width:100%;
+	height:85%;
+	background: url('isef-full.JPG');
+	background-position: center;
+	background-attachment: fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+	color:white;
+}
+
+.contain-bottom{
+	padding-top:100px;
+	padding-right: 100px;
+	padding-left:100px;
+	width:100%;
+}
+.tint{
+	position:absolute;
+	background-color:rgb(0,0,250);
+	opacity:0.35;
+	width:100%;
+	height:85%;
+}
+.nav{
+	position:absolute;
+	margin:30px;
+	z-index:100;
+	margin-top:30px;
+}
+.home-link{
+	font-size:38px;
+	color:white;
+	font-weight:600;
+	margin-right:40px;
+}
+.nav-link{
+	font-size:24px;
+	color:white;
+	font-weight:600;
+	margin-right:20px;
+}
+
+
+
+/* Boxes */
+
+.contain-name{
+	position:absolute;
+	background-color:rgba(100,0,250,0.5);
+	border: solid rgba(100,0,250,0.8);
+	width:50%;
+	padding:30px;
+	display:block;
+	margin:auto;
+	left:0;
+	right:0;
+	margin-top:190px;
+}
+.contain-name > h1{
+	text-align: center;
+	font-size:50px;
+}
+
+.contain-sub-row{
+	margin-top: 500px;
+}
+
+
+.contain-sub-content{
+	background-color:rgba(100,100,150,0.95);
+	width:80%;
+	padding:15px;
+	display:block;
+	margin:auto;
+}
+.sub-content-heading{
+	text-align:center;	
+	font-size:20px;
+	text-decoration: underline;
+}
+
+
+
+/* Sections */
+
+.contain-first-thing{
+	margin-bottom:100px;
+	font-weight:600;
+}
+.contain-schedule > h1{
+	text-align: center;
+	font-size:50px;
+	text-decoration: underline;
+}
+.contain-schedule > ul{
+	font-size:20px;
+	list-style: none;
+	text-align: center;
+	margin:0;
+	margin-top:20px;
+	padding:0;
+	font-weight:300;
+}
+.schedule-date{
+	font-weight:600;
+}
+.finished{
+	opacity:0.5;
+	text-decoration: line-through;
+}
+.contain-schedule > ul > li{
+	margin-bottom:10px;
+}
+
+.contain-awards > h1{
+	text-align: center;
+	font-size:50px;
+	text-decoration: underline;
+}
+
+.contain-awards > ul{
+	font-size:20px;
+	list-style: none;
+	text-align: center;
+	margin:0;
+	margin-top:20px;
+	font-weight: 400;
+	padding:0;
+}
+.contain-awards > ul > li{
+	margin-bottom:10px;
+}
+
+
+.contain-section{
+	margin-top:30px;
+	margin-bottom:130px;
+}
+.section-heading{
+	font-size:60px;
+	font-weight: 600;
+}
+.section-sub-heading{
+	margin-left:20px;
+	font-size:40px;
+	opacity:0.8;
+	font-weight: 600;
+	width:100%;
+}
+.section-description{
+	padding:20px 0px;
+	padding-left:15px;
+	padding-right:30px;
+	font-size:20px;
+	font-weight:600;
+}
+
+
+.section-image{ 
+	width:100%;
+	margin-top:30px;
+}
+.img-des{
+	width:100%;
+	text-align:center;
+	font-size:15px;
+	font-weight:600;
+	margin-top:10px;
+	padding:0 10px;
+}
+@media(min-width:900px){
+	.img-des{
+		font-size:20px;
+	}
+}
+
+.coding-languages{
+	background-color:rgba(0,0,100,0.4);
+	padding:2px;
+
+}
+
+.footer{
+		padding:100px;
+	background-color:rgba(0,0,100,0.7);
+
+}
+.footer > h1{
+	color:white;
+	width:100%;
+	text-align: center;
+	font-size:50px;
+	margin-bottom:20px;
+}
+.contain-contact{
+	width:100%;
+	display:inline-block;
+}
+
+.sub-contain-contact{
+	display:block;
+	margin-right:30px;
+	color:white;
+	font-size:20px;
+	margin:auto;
+	text-align: center;
+}
+
+
+.sub-contain-contact-links{
+	margin-top:20px;
+}
+
+.sub-contain-contact > a{
+	color:white;
+}
+
+/* Responsive : height */
+
+@media(min-height:860px){
+	.sub-content-heading{
+		font-size:28px;
+	}
+	.contain-sub-content > ul{
+		font-size:20px;
+	}
+}
+
+
+
+
+
+
+/* Responsive : width */
+
+@media(min-width:992px){
+	.contain-top{
+		height:105%;
+	}
+	.tint{
+		height:105%;
+	}
+	.contain-name{
+		width:94%;
+		font-size:30px;
+	}
+	.contain-name>h1{
+		font-size:35px;
+	}
+	.contain-sub-content>ul{
+		font-size:15px;
+	}
+
+}
+
+
+
+
+@media(max-width:892px){
+	.contain-top{
+		height:105%;
+	}
+	.tint{
+		height:105%;
+	}
+	
+	.home-link{
+		margin:0;
+		display:block;
+	}
+	.contain-name{
+		width:94%;
+		font-size:30px;
+	}
+	.contain-name>h1{
+		font-size:30px;
+	}
+	.contain-sub-content{
+		width:100%;
+		margin:0;
+		margin-bottom:20px;
+	}
+	.contain-sub-content>ul{
+		padding:0;
+		margin:0;
+		list-style: none;
+		text-align:center;
+		font-size:14px;
+	}
+
+
+
+	.contain-bottom{
+		padding:10px;
+		padding-top:50px;
+	}
+
+	.contain-schedule{
+		margin-bottom:53px;
+	}
+	.contain-schedule > h1{
+		font-size:35px;
+	}
+	.contain-schedule > ul{
+		font-size:17px;
+	}
+
+
+	.contain-awards > h1{
+		font-size:35px;
+	}
+	.contain-awards > ul{
+		font-size:16px;
+	}
+
+	.section-heading{
+		font-size:40px;
+		margin-left:17px;
+	}
+	.section-description{
+		font-size:17px;
+	}
+
+
+	.footer{
+		padding:50px;
+	}
+	.footer > h1{
+		font-size:40px;
+	}
+	.sub-contain-contact{
+		font-size:17px;
+	}
+
+
+}
+
+
+
+
+
+
+@media(max-width:600px){
+	.home-link{
+		font-size:34px;
+	}
+	.nav-link{
+		font-size:20px;
+	}
+	.contain-top{
+		height:142%;
+	}
+	.tint{
+		height:142%;
+	}
+	.contain-name{
+		padding: 30px 10px;
+	}
+	.contain-name > h1{
+		font-size:25px;
+	}
+}
+@media(max-width:400px){
+	
+	.contain-top{
+		height:152%;
+	}
+	.tint{
+		height:152%;
+	}
+
+	.contain-schedule > h1{
+		font-size:30px;
+	}
+	.contain-awards > h1{
+		font-size:30px;
+	}
+}
+
+
+
+@media(max-height:800px){
+	.contain-top{
+		height:120%;
+	}
+	.tint{
+		height:120%;
+	}
+	.contain-sub-row{
+		margin-top:400px;
+	}
+	.sub-content-heading{
+		font-size:20px;
+	}
+	.contain-sub-content > ul{
+		font-size:14px;
+	}
+}
+
+
+@media(max-height:700px){
+	.contain-top{
+		height:120%;
+	}
+	.tint{
+		height:120%;
+	}
+}
+
+@media(max-height:650px){
+	.contain-top{
+		height:145%;
+	}
+	.tint{
+		height:145%;
+	}
+}
+
+@media(max-height:600px){
+	.contain-top{
+		height:190%;
+	}
+	.tint{
+		height:190%;
+	}
+}
+
+
+
+@media(min-width:769px){
+	.nav{
+		text-align:center;
+		margin-top:30px;
+	}
+	.contain-top{
+		height:115%;
+	}
+	.contain-name{
+		margin-top:15%;
+	}
+	.tint{
+		height:115%;
+	}
+
+	
+}
+
+@media(max-width:768px){
+	.section-image{
+		width:100%;
+	}
+}
+
+

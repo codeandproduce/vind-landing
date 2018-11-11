@@ -1,0 +1,259 @@
+* {
+	transition:all 250ms ease-in-out;
+	box-sizing: border-box;
+}
+body{
+	font-family: "San Francisco", sans-serif, !important;
+	color: #626262;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+.navbar{
+	height:105px;
+	position:relative;
+	border-bottom:4px solid #cecece;
+}
+.navbar > .container{
+	background-color: white;
+	top:0;
+	position:absolute;
+	width:100%;
+	padding-left:34px;
+	left:0;
+	right:0;
+	padding-right:34px;
+
+}
+.navbar-brand{
+	margin-top:14px;
+}
+.vind-logo-in-nav{
+	height:60px;
+}
+.navbar-collapse{
+	float:left;
+}
+.ml-auto, .mx-auto {
+    margin-left: 30px !important;
+}
+.nav-link{
+	color:#626262;
+	font-size:20px;
+	margin-right:20px;
+	margin-top:15px;
+}
+.nav-link:hover{
+	color:black;
+	text-decoration: underline;
+}
+
+
+
+.navbar-toggler{
+	display:inline;
+	width:35px;
+	margin-top:20px;
+	padding:0;
+}
+.navbar-toggler-icon{
+	display:inline-block;
+	height:4px;
+	width:100%;
+	background-color:black;
+	margin-bottom:6px;
+	border-radius:5px;
+}
+.toggler-last{
+	margin-bottom:0;
+}
+
+
+
+.row{
+	height:75%;
+}
+.map-image{
+	position:relative;
+	display: block;
+	margin:auto;
+	margin-top:50px;
+	width:65% !important;
+}
+.carousel-indicators> li{
+	border:1px solid black;
+	border-radius: 50px;
+	width:10px;
+	height:10px;
+}
+.carousel{
+	width:100%;
+	height:100%;
+}
+.carousel-indicators{
+	position:absolute;
+}
+.carousel-indicators>li.active{
+	background-color: black;
+}
+.carousel-item{
+	height:100%;
+	width:100%
+}
+
+.row{
+	margin:0;
+	position:absolute;
+}
+.contain-first-slide{
+	padding-top:90px;
+	padding-left:80px;
+
+}
+.contain-first-slide > h1{
+	font-weight: 800;
+	font-size:60px;
+}
+.head-first-big{
+	color:#010101;
+}
+.head-second-big{
+	color:#616161;
+}
+.head-third-big{
+	color: #828282;
+}
+.vert-line{
+	position:absolute;
+	margin-left:52%;
+	width:5px;
+	height:330px;
+	background-color: #cecece;
+	margin-top:90px;
+}
+.mission-p{
+	margin-top:20px;
+	color:#010101;
+	font-size:20px;
+	width:80%;
+}
+.contain-second-slide{
+	padding-top:150px;
+	padding-left:100px;
+	padding-right: 40px;
+}
+.second-slide-head{
+	font-weight:800;
+	font-size:30px;
+	color:#616161;
+}
+.email-input-subscribe{
+	margin-top:20px;
+	border:none;
+	padding:15px 25px;
+	background-color:#f2f2f2;
+	border-radius: 10px;
+	font-size:15px;
+	width:70%;
+}
+.submit-email-subscribe{
+	margin-top:12px;
+	border-radius: 10px;
+	border: 2px solid #80D877;
+	width:70%;
+	height:50px;
+	background-color:#80D877;
+	cursor: pointer;
+	color:white;
+}
+.submit-email-subscribe:hover{
+	background-color:white;
+	border:2px solid #80D877;
+	color: #80D877;
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+	.vert-line{
+		width:100px;
+		display:none;
+	}
+	.contain-first-slide > h1, .mission-p{
+		text-align: center;
+	}
+	.mission-p{
+		width:80%;
+		display:block;
+		margin:auto;
+		padding-top:20px;
+	}
+	.contain-first-slide{
+		padding:10px;
+		padding-top:60px;
+	}
+	.contain-second-slide{
+		margin-top:80px;
+		padding:0;
+	}
+
+	.second-slide-head{
+		width:80%;
+		display:block;
+		margin:auto;
+		text-align: center;
+		letter-spacing: 0;
+	}
+	.email-input-subscribe{
+		display:block;
+		margin:auto;
+		margin-top:20px;
+		width:50%;
+	}
+	.clear{
+		width:100%;
+	}
+	.submit-email-subscribe{
+		display:block;
+		margin:auto;
+		margin-top:20px;
+		width:40%;
+	}
+
+}
+
+@media(max-width:400px){
+	.contain-first-slide > h1{
+		font-size:35px;
+	}
+	.contain-first-slide > p{
+		font-size:15px;
+	}
+	.carousel{
+		height:370px;
+	}
+	.contain-second-slide{
+		margin-top:100px;
+		padding-bottom:50px;
+	}
+	.second-slide-head{
+		font-size:25px;
+	}
+	.email-input-subscribe{
+		width:80%;
+	}
+
+	.submit-email-subscribe{
+		width:60%;
+		font-size:16px;
+	}
+
+
+}

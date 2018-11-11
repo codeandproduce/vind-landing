@@ -1,0 +1,17 @@
+
+@media(max-width:700px){
+	#animateStu{
+		height:82px;
+	}
+	.navbar-toggle{
+		transform:scale(1.5,1.5);
+		margin-top:6px;
+	}
+	.logoimg{
+		width:100px;
+		height:48px;
+	}
+	#menuText{
+		display:none;
+	}
+}
